@@ -19,7 +19,7 @@ SAME Codes and Geo Location
 Currently this project makes extensive use of SAME codes, it's been noted that 'not all NWS products are issued with a
 SAME Code'. However, 'County/Zone codes are provided for all CAP 1.1 messages.' I've noticed that a lot of Alaskan
 alerts do not ship with SAME codes, some don't appear to ship with any geocodes... Most lower 48 alerts do, in fact,
-I haven't seen one that didn't. For this reason though, we'll be incorperating county/zone codes and Storm based
+I haven't seen any that don't. For this reason though, we'll be incorperating county/zone codes and Storm based
 location information in the near future.
 
 

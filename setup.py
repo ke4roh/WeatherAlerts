@@ -5,7 +5,7 @@ readme = open('README.rst', 'rt').read()
 import sys
 
 
-versionstr = '0.5.0rc5'
+versionstr = '0.6.0b1'
 
 
 setup(
@@ -16,14 +16,11 @@ setup(
     packages=['weatheralerts'],
     package_dir={
         'weatheralerts': "weatheralerts"},
-    #scripts=[ "scripts/NagiosWeatherAlerts.py",
-              #"scripts/MonitorAlertsByCounty.py",
-              #"scripts/NWS_Alerts.py"}
     url='http://github.com/zebpalmer/WeatherAlerts',
     license='LGPLv3',
     description='Parse the National Weather Service Emergency Alerts Feed (NWS CAP format), do useful stuff with it',
     long_description=readme,
-    install_requires=['requests', 'sphinxcontrib-httpdomain', 'bottle', 'waitress'],
+    install_requires=['requests', 'sphinxcontrib-httpdomain', 'flask'],
     use_2to3=True,
     classifiers=[
               'Development Status :: 4 - Beta',

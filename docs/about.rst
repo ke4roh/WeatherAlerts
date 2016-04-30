@@ -10,7 +10,7 @@ feed, it's free and straight from the source. Other library's I've seen (or
 written) get data from 3rd parties that require an API key which in many
 cases requires a subscription or imposes use restrictions.
 
-This code is provided under LGPLv3 as of version 0.5.x (see LICENSE.txt). 
+This code is provided under GPLv3 as of version 0.6.x (see LICENSE.txt). 
 If you do make improvements, please contribute back to this project. 
 You can submit a git pull request or email me: zeb@zebpalmer.com
 
@@ -38,15 +38,14 @@ Use cases that I am considering in the development of WeatherAlerts.
 - Daemon to run and notify alerts as they come in
 - Nagios monitoring pluging
 - A web service that given various paramaters will return json or raw text summaries of the requested data.
-- Would love to see someone a KDE plasmoid/widget that would pop up alerts
+- Would love to see someone a KDE widget that would pop up alerts
 
 
 
 
 Author
 =======
-This progam is maintained by Zeb Palmer, a Linux Systems Engineer and Professional Photographer who writes a bit of
-python at work and play. Circle me on Google Plus `zebpalmer.com/+ <http://zebpalmer.com/+>`_ and see my other work at
+This progam is maintained by Zeb Palmer, who writes a bit of python at work and play. 
 `ZebPalmer.com <http://www.zebpalmer.com>`_
 
 Contact
@@ -58,8 +57,6 @@ There are several ways you can contact me or otherwise get help beyond the docum
   Please submit via the projects issue tracker on github https://github.com/zebpalmer/WeatherAlerts/issues
 
 **Random Chatter**
-  Circle me on Google+ `Zeb Palmer Google Plus <https://plus.google.com/u/0/105137345884947048400/>`_
-  
   Follow me on Twitter `@zebpalmer <http://twitter.com/zebpalmer>`_
 
 **Website**
