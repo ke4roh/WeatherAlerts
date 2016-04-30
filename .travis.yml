@@ -19,4 +19,4 @@ notifications:
       - https://webhooks.gitter.im/e/a3418724a387d72a618f
     on_success: always  # options: [always|never|change] default: always
     on_failure: always 
-    on_start: always
+    on_start: never
